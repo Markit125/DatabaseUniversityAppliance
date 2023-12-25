@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="databases.databasesapplianceform.Controller">
+   <children>
+      <VBox prefHeight="1080.0" prefWidth="1920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="65.0" prefWidth="600.0" />
+            <HBox>
+               <children>
+                  <VBox prefHeight="368.0" prefWidth="46.0" />
+                  <VBox prefHeight="400.0" prefWidth="246.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="First name" />
+                        <TextField fx:id="fieldFirstName" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Middle name" />
+                        <TextField fx:id="fieldMiddleName" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Last name" />
+                        <TextField fx:id="fieldLastName" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Birth date" />
+                        <TextField fx:id="fieldBirthDate" promptText="dd.mm.yyyy" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Achievements" />
+                        <TextField fx:id="fieldAchievements" promptText="0-10" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Passport" />
+                        <TextField fx:id="fieldPassport" promptText="1234567890" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="368.0" prefWidth="29.0" />
+                  <VBox prefHeight="368.0" prefWidth="296.0">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Department" />
+                              <MenuButton fx:id="departmentButton" mnemonicParsing="false" onMouseClicked="#onDepartmentButtonClicked" prefHeight="24.0" prefWidth="379.0" text="Choose" />
+                           </children>
+                        </VBox>
+                        <HBox>
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Exam subject 1" />
+                                    <Label fx:id="examLabel1" prefHeight="24.0" prefWidth="200.0" text="Subject" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="0.0" prefWidth="19.0" />
+                              <VBox>
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Result" />
+                                    <TextField fx:id="fieldResult1" prefHeight="24.0" prefWidth="64.0" promptText="0-100" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Exam subject 2" />
+                                    <Label fx:id="examLabel2" prefHeight="24.0" prefWidth="200.0" text="Subject" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="0.0" prefWidth="19.0" />
+                              <VBox>
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Result" />
+                                    <TextField fx:id="fieldResult2" prefHeight="24.0" prefWidth="64.0" promptText="0-100" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Exam subject 3" />
+                                    <Label fx:id="examLabel3" prefHeight="24.0" prefWidth="200.0" text="Subject" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="0.0" prefWidth="19.0" />
+                              <VBox>
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Result" />
+                                    <TextField fx:id="fieldResult3" prefHeight="24.0" prefWidth="64.0" promptText="0-100" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="19.0" prefWidth="152.0" />
+                        <Button fx:id="submitButton" mnemonicParsing="false" onAction="#onSubmitButtonClick" prefHeight="61.0" prefWidth="152.0" text="Submit" />
+                        <Label fx:id="errorLabel" prefHeight="39.0" prefWidth="285.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="368.0" prefWidth="46.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="818c2281-c7c1-4d77-bc58-d392dd7d698b" name="Changes" comment="creating notice">
+      <change beforePath="$PROJECT_DIR$/downloads/notice.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/downloads/notice.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/databases/databasesapplianceform/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/databases/databasesapplianceform/Controller.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Zg6vYfVLdEwAlwSkfCwL5Z1yf7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/markit/Downloads/JavaBaseExamine",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28949857",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="databases.databasesapplianceform.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.databasesapplianceform.Application" />
+      <module name="databasesApplianceForm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databases.databasesapplianceform.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.databases.databasesapplianceform.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="818c2281-c7c1-4d77-bc58-d392dd7d698b" name="Changes" comment="" />
+      <created>1702831605656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702831605656</updated>
+      <workItem from="1702831606855" duration="7256000" />
+      <workItem from="1702899464044" duration="13025000" />
+      <workItem from="1702992632017" duration="120000" />
+      <workItem from="1702992756649" duration="22000" />
+      <workItem from="1702992989706" duration="34000" />
+      <workItem from="1702993032348" duration="26000" />
+      <workItem from="1702993106247" duration="127000" />
+      <workItem from="1702993271439" duration="20000" />
+      <workItem from="1703002771842" duration="2127000" />
+      <workItem from="1703005139231" duration="1028000" />
+      <workItem from="1703006199869" duration="429000" />
+      <workItem from="1703006989048" duration="163000" />
+      <workItem from="1703007201818" duration="58000" />
+      <workItem from="1703022537967" duration="990000" />
+      <workItem from="1703024616034" duration="111000" />
+      <workItem from="1703086377289" duration="610000" />
+      <workItem from="1703091638508" duration="4000" />
+      <workItem from="1703091730305" duration="831000" />
+      <workItem from="1703096563415" duration="1206000" />
+      <workItem from="1703097927623" duration="21000" />
+      <workItem from="1703099145448" duration="79000" />
+      <workItem from="1703100049958" duration="541000" />
+      <workItem from="1703100657158" duration="140000" />
+      <workItem from="1703176394377" duration="137000" />
+      <workItem from="1703241138409" duration="481000" />
+      <workItem from="1703243234396" duration="11000" />
+      <workItem from="1703244143909" duration="67000" />
+      <workItem from="1703246535465" duration="617000" />
+      <workItem from="1703266482332" duration="2000" />
+      <workItem from="1703266572674" duration="9684000" />
+      <workItem from="1703278994555" duration="170000" />
+      <workItem from="1703315113966" duration="5000" />
+      <workItem from="1703315238339" duration="137000" />
+      <workItem from="1703325508964" duration="624000" />
+    </task>
+    <task id="LOCAL-00001" summary="upload">
+      <created>1703097109374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703097109374</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;upload&quot;&#10;&#10;This reverts commit 503a732b">
+      <created>1703097737707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703097737708</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;upload&quot;&#10;&#10;This reverts commit 503a732b">
+      <created>1703100380616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703100380616</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creating notice">
+      <created>1703279006904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703279006904</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload" />
+    <MESSAGE value="Revert &quot;upload&quot;&#10;&#10;This reverts commit 503a732b" />
+    <MESSAGE value="creating notice" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating notice" />
+  </component>
+</project>

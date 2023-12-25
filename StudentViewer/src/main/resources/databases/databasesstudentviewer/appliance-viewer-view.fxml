@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="databases.databasesstudentviewer.Controller">
+   <children>
+      <VBox layoutX="4.0" layoutY="10.0" prefHeight="68.0" prefWidth="906.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="906.0">
+               <children>
+                  <Label fx:id="departmentLabel" prefHeight="30.0" text="Students">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="28.0" prefWidth="592.0">
+               <children>
+                  <MenuButton fx:id="sortByButton" mnemonicParsing="false" prefHeight="28.0" prefWidth="197.0" text="Sorted by Last Name" />
+                  <HBox prefHeight="28.0" prefWidth="12.0" />
+                  <CheckBox fx:id="reversedCheckbox" mnemonicParsing="false" onAction="#printTable" prefHeight="28.0" prefWidth="129.0" text="Reversed order" />
+                  <HBox prefHeight="26.0" prefWidth="26.0" />
+                  <Label prefHeight="40.0" prefWidth="54.0" text="Filters:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <MenuButton fx:id="departmentButton" mnemonicParsing="false" prefHeight="28.0" prefWidth="129.0" text="Department" />
+                  <HBox prefHeight="28.0" prefWidth="34.0" />
+                  <TextField fx:id="sumLeftBound" onAction="#printTable" prefHeight="28.0" prefWidth="50.0" />
+                  <Label prefHeight="33.0" prefWidth="137.0" text=" ≤ Point Sum ≤ ">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="sumRightBound" onAction="#printTable" prefHeight="28.0" prefWidth="50.0" />
+                  <HBox prefHeight="28.0" prefWidth="34.0" />
+                  <Button mnemonicParsing="false" onAction="#createPDFReport" prefHeight="28.0" prefWidth="55.0" text="Save" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="80.0" prefHeight="455.0" prefWidth="906.0" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <WebView fx:id="webView" prefHeight="100000.0" prefWidth="100000.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
