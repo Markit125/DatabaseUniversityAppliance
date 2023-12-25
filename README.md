@@ -1,6 +1,22 @@
-# DatabaseUniversityAppliance
+# DatabaseUniversityAppliance with PostgreSQL
 
-Appliance Form screenshots:
+[Appliance Form screenshots](#form)
+
+[Appliance viewer screenshots](#appliance_viewer)
+
+[Appliance deleter screenshots](#deleter)
+
+[Student viewer screenshots](#student_viewer)
+
+[Create database](#database)
+
+
+
+<a name="#form">
+  
+  ### Appliance Form screenshots:
+  
+</a>
 
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/6c78c916-7543-421a-91f1-2f7bfbb5bf39)
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/77388254-b248-4658-8c7d-cfef5ac8ef33)
@@ -9,15 +25,14 @@ Appliance Form screenshots:
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/3ad698e0-17e2-43d3-88f2-6a09e97aa595)
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/35957fee-dbf2-4b48-8aab-33fb67ddcb48)
 
-In downloads folder (in project) appears after successful submission:
-
+#### In downloads folder (in project) appears after successful submission:
 ![image_2023-12-22_23-59-24](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/151cf937-0f58-4516-8171-75401b8deba1)
 
-
-
-
-
-Appliance viewer screenshots:
+<a name="#appliance_viewer">
+  
+  ### Appliance viewer screenshots:
+  
+</a>
 
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/f51e59b3-5bbf-4ece-aa6d-ee0bf70460bd)
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/3b4dc834-d0e6-43f8-8032-35459f25c6ba)
@@ -25,25 +40,33 @@ Appliance viewer screenshots:
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/4c86cfa2-3d72-4442-b400-3e20e82eca14)
 
 
-
-Appliance deleter screenshots:
+<a name="#deleter">
+  
+  ### Appliance deleter screenshots:
+  
+</a>
 
 ![image_2023-12-20_21-19-53](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/f0f50c65-1a6c-4d42-9023-ae4c63b5e883)
 ![image_2023-12-20_21-20-04](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0b588bac-55d3-491f-ac58-6d057de97ce4)
 ![image_2023-12-20_21-20-35](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0ff7df0d-63d1-4746-890c-7f03e40647cf)
 ![image_2023-12-20_21-20-46](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/53887c4d-1520-4692-8eb7-9b43bb91b090)
 
-
-Student viewer screenshots:
+<a name="#appliance_viewer">
+  
+  ### Student viewer screenshots:
+  
+</a>
 
 ![image_2023-12-23_00-01-44](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/172ada3c-d9a8-4d61-89b9-372f3baedb39)
-
-When you click save, an html file with the current table appears in the downloads folder (in the project):
-
+#### When you click save, an html file with the current table appears in the downloads folder (in the project):
 ![image_2023-12-23_00-02-43](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0b2c6c4f-2421-4c71-b9aa-49673c0ddcf1)
 
 
-To create database:
+<a name="#database">
+  
+  ### To create database (PostgreSQL):
+  
+</a>
 
 ```sql
 CREATE TABLE Applience
