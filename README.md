@@ -1,6 +1,7 @@
 # DatabaseUniversityAppliance
 
 Appliance Form screenshots:
+
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/6c78c916-7543-421a-91f1-2f7bfbb5bf39)
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/77388254-b248-4658-8c7d-cfef5ac8ef33)
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/a87ebdff-f34a-481a-a4bb-1d2158a0163c)
@@ -9,6 +10,7 @@ Appliance Form screenshots:
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/35957fee-dbf2-4b48-8aab-33fb67ddcb48)
 
 In downloads folder (in project) appears after successful submission:
+
 ![image_2023-12-22_23-59-24](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/151cf937-0f58-4516-8171-75401b8deba1)
 
 
@@ -16,6 +18,7 @@ In downloads folder (in project) appears after successful submission:
 
 
 Appliance viewer screenshots:
+
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/f51e59b3-5bbf-4ece-aa6d-ee0bf70460bd)
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/3b4dc834-d0e6-43f8-8032-35459f25c6ba)
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/2fe3af30-cbb9-466c-9dd9-fa1458efc929)
@@ -24,6 +27,7 @@ Appliance viewer screenshots:
 
 
 Appliance deleter screenshots:
+
 ![image_2023-12-20_21-19-53](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/f0f50c65-1a6c-4d42-9023-ae4c63b5e883)
 ![image_2023-12-20_21-20-04](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0b588bac-55d3-491f-ac58-6d057de97ce4)
 ![image_2023-12-20_21-20-35](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0ff7df0d-63d1-4746-890c-7f03e40647cf)
@@ -31,13 +35,17 @@ Appliance deleter screenshots:
 
 
 Student viewer screenshots:
+
 ![image_2023-12-23_00-01-44](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/172ada3c-d9a8-4d61-89b9-372f3baedb39)
+
 When you click save, an html file with the current table appears in the downloads folder (in the project):
+
 ![image_2023-12-23_00-02-43](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0b2c6c4f-2421-4c71-b9aa-49673c0ddcf1)
 
 
 To create database:
-sql'''
+
+```sql
 CREATE TABLE Applience
 (
   Applience_id         INTEGER NOT NULL,
@@ -143,4 +151,4 @@ ADD FOREIGN KEY R_1 (Student_ID) REFERENCES Student (Student_ID);
 
 ALTER TABLE Result
 ADD FOREIGN KEY R_2 (Exam_subject_ID) REFERENCES Exam_subject (Exam_subject_ID);
-'''
+```
