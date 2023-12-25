@@ -12,7 +12,7 @@
 
 
 
-<a name="#form">
+<a name="form">
   
   ### Appliance Form screenshots:
   
@@ -28,7 +28,7 @@
 #### In downloads folder (in project) appears after successful submission:
 ![image_2023-12-22_23-59-24](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/151cf937-0f58-4516-8171-75401b8deba1)
 
-<a name="#appliance_viewer">
+<a name="appliance_viewer">
   
   ### Appliance viewer screenshots:
   
@@ -40,7 +40,7 @@
 ![image](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/4c86cfa2-3d72-4442-b400-3e20e82eca14)
 
 
-<a name="#deleter">
+<a name="deleter">
   
   ### Appliance deleter screenshots:
   
@@ -51,7 +51,7 @@
 ![image_2023-12-20_21-20-35](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0ff7df0d-63d1-4746-890c-7f03e40647cf)
 ![image_2023-12-20_21-20-46](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/53887c4d-1520-4692-8eb7-9b43bb91b090)
 
-<a name="#appliance_viewer">
+<a name="student_viewer">
   
   ### Student viewer screenshots:
   
@@ -62,7 +62,7 @@
 ![image_2023-12-23_00-02-43](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/0b2c6c4f-2421-4c71-b9aa-49673c0ddcf1)
 
 
-<a name="#database">
+<a name="database">
   
   ### To create database (PostgreSQL):
   
