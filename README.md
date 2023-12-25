@@ -68,6 +68,11 @@
   
 </a>
 
+#### Scheme
+
+![image_2023-12-20_19-44-47](https://github.com/Markit125/DatabaseUniversityAppliance/assets/72036187/a2d57c48-0f31-437f-a5c0-aaed88c7af62)
+
+
 ```sql
 CREATE TABLE Applience
 (
